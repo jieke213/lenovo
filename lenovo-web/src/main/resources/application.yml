@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/vhr?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 1234
+  redis:
+    database: 0
+    host: 192.168.66.130
+    port: 6379
+    password: 123@456
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: 1ms
+        min-idle: 0
+  cache:
+    cache-names: menus_cache
+    redis:
+      time-to-live: 1800s
+  mail:
+    host: smtp.qq.com
+    port: 465
+    username: 1510161612@qq.com
+    password: fhmvfkwxjwmzhhjd
+    default-encoding: UTF-8
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+server:
+  port: 8002
