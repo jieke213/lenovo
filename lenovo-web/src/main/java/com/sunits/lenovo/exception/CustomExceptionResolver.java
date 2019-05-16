@@ -20,7 +20,8 @@ public class CustomExceptionResolver implements HandlerExceptionResolver {
         ModelAndView mv = new ModelAndView(new MappingJackson2JsonView());
         Map<String, Object> map = new HashMap<>();
         map.put("status", 500);
-        map.put("msg", "操作失败!");
+//        map.put("msg", "操作失败!");
+        map.put("msg",e.getMessage()+","+o.toString());
         mv.addAllObjects(map);
         return mv;
     }

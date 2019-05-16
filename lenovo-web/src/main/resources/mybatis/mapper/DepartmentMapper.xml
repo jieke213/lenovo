@@ -14,7 +14,7 @@
         <result column="name" property="name"/>
         <result column="parentId" property="parentId"/>
         <result column="isParent" property="isParent"/>
-        <collection property="children" ofType="com.sunits.lenovo.bean.Department" select="com.sunits.lenovo.mapper.DepartmentMapper.getDepByPid" column="id">
+        <collection property="children" ofType="com.sunits.lenovo.bean.Department" select="com.sunits.lenovo.core.mapper.DepartmentMapper.getDepByPid" column="id">
         </collection>
     </resultMap>
     <select id="getDepByPid" resultMap="BaseResultMap">

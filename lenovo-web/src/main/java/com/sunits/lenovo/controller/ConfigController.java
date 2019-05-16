@@ -1,4 +1,4 @@
-package com.sunits.lenovo;
+package com.sunits.lenovo.controller;
 
 import com.sunits.lenovo.bean.Hr;
 import com.sunits.lenovo.bean.Menu;

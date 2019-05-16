@@ -1,4 +1,4 @@
-package com.sunits.lenovo.system;
+package com.sunits.lenovo.controller.system;
 
 import com.sunits.lenovo.bean.Hr;
 import com.sunits.lenovo.bean.RespBean;

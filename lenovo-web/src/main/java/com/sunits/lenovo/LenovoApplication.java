@@ -14,7 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableCaching
 @MapperScan("com.sunits.lenovo.core.mapper")
-@ComponentScan(basePackages = {"com.sunits.lenovo"})
+//@ComponentScan(basePackages = {"com.sunits.lenovo"})
 public class LenovoApplication {
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.sunits.lenovo;
+package com.sunits.lenovo.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.sunits.lenovo;
+package com.sunits.lenovo.controller;
 
 import com.sunits.lenovo.bean.ChatResp;
 import org.springframework.beans.factory.annotation.Autowired;

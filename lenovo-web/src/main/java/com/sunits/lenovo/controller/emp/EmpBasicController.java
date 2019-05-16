@@ -1,4 +1,4 @@
-package com.sunits.lenovo.emp;
+package com.sunits.lenovo.controller.emp;
 
 import com.sunits.lenovo.bean.Employee;
 import com.sunits.lenovo.bean.Position;

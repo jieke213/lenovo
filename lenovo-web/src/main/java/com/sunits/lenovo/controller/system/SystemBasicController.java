@@ -1,4 +1,4 @@
-package com.sunits.lenovo.system;
+package com.sunits.lenovo.controller.system;
 
 import com.sunits.lenovo.bean.*;
 import com.sunits.lenovo.service.*;

@@ -1,4 +1,4 @@
-package com.sunits.lenovo.salary;
+package com.sunits.lenovo.controller.salary;
 
 import com.sunits.lenovo.bean.Department;
 import com.sunits.lenovo.service.DepartmentService;
