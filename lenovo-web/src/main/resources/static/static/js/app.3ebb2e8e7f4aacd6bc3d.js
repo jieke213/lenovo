@@ -2743,7 +2743,7 @@ webpackJsonp([7], {
         var r = {
             render: function () {
                 var e = this, t = e.$createElement, n = e._self._c || t;
-                return n("div", [n("el-container", {staticClass: "home-container"}, [n("el-header", {staticClass: "home-header"}, [n("span", {staticClass: "home_title"}, [e._v("阳光雨露")]), e._v(" "), n("div", {
+                return n("div", [n("el-container", {staticClass: "home-container"}, [n("el-header", {staticClass: "home-header"}, [n("span", {staticClass: "home_title"}, [e._v("阳光雨露-人力资源管理系统")]), e._v(" "), n("div", {
                     staticStyle: {
                         display: "flex",
                         "align-items": "center",
